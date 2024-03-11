@@ -1,0 +1,18 @@
+footer {
+    text-align: center;
+    padding: 20px 10%; /* Ajusta el padding vertical a 20px */
+}
+
+.footer-paragraph {
+    font-size: medium;
+}
+
+.footer-redes {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-redes-item {
+    padding: 1%;
+}

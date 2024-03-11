@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.logo-img {
+    width: 11vh;
+    height: 4vh;
+}
+
+
+
+.menu {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.menu-item {
+    border: 1px solid black; 
+    padding: 10px; 
+}
+
+.dropbtn{
+    display: none;
+}
+
+/* Menu Responsive */
+
+@media (max-width: 480px){
+    .dropbtn{
+        display: block;
+        background-color: #b317fb;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+}
